@@ -5,7 +5,7 @@ This is a simple python bot for daily check in ping'an fudan covid-19
 
 There is a .sh example, but you should make a **.sh file** according to **your own device.**
 
-**Make sure** some important **env packages** are installed:
+**Make sure** that some important **env packages** are installed:
 
 - **selenium**
 - **webdriver_manager**
