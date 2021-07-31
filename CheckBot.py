@@ -1,4 +1,3 @@
-# Copyright Shiyang Feng @Fudan University. All Rights Reserved
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
@@ -14,7 +13,7 @@ your_passwd = ""
 try:
     driver = webdriver.Chrome(ChromeDriverManager(cache_valid_range = 3).install())
 except :
-    bot.send_message(tg_chat_id, "retry connect")
+    #bot.send_message(tg_chat_id, "retry connect")
     sleep(100)
     driver = webdriver.Chrome(ChromeDriverManager(cache_valid_range = 3).install())
 
